@@ -55,9 +55,10 @@ const Home = () => {
                       alt=""
                     />
                   </div>
-                  <h1 className="text-sm tracking-tight hover:text-gray-800 ">
+                   <h1 className="text-sm text-center tracking-tight hover:text-gray-800 ">
                     {item.title}
                   </h1>
+                  <h2 className="text-xl font-mono">${item.price}</h2>
                 </Link>
               );
             })}
