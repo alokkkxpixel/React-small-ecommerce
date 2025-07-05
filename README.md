@@ -2,7 +2,7 @@
 
 This is a **React-based e-commerce product management application** where you can create, view, edit, and delete products. It also supports filtering products by category and viewing product details.
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](./ScreenShot.png)
 
 ---
 
