@@ -36,7 +36,7 @@ const Home = () => {
     <>
       <Navbar />
 
-      <div className=" w-[82%]   p-10 pt-[5%]  flex flex-wrap gap-5 overflow-x-hidden overflow-y-auto bg-red-50 ">
+      <div className=" w-[82%]   p-10 pt-[5%]  flex flex-wrap gap-5 overflow-x-hidden overflow-y-auto bg-white ">
         {filteredProducts &&
           filteredProducts
             .slice(0)
