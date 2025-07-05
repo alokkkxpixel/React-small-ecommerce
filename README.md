@@ -1,12 +1,37 @@
-# React + Vite
+# 🛍️ React E-commerce Product Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React-based e-commerce product management application** where you can create, view, edit, and delete products. It also supports filtering products by category and viewing product details.
 
-Currently, two official plugins are available:
+![App Screenshot](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Create new products (with form and validation)
+- ✅ Edit existing products (pre-filled form)
+- ✅ Delete products
+- ✅ View detailed product info
+- ✅ Filter products by category (e.g., Men's Clothing, Women's Clothing, Electronics, Jewelry)
+- ✅ Responsive and clean UI
+
+---
+
+## 💡 Technologies Used
+
+- **React JS** — UI and state management
+- **React Router** — Page navigation (product details, create, edit)
+- **Tailwind CSS** — Styling and responsive design
+- **Flowbite** — Beautiful form components
+- **React Toastify** — Toast notifications
+- **Context API** — Global state for product data
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
